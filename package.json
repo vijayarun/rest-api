@@ -1,0 +1,23 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "Dist/State/Town REST API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "A Vijay",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.1.0",
+    "csvtojson": "^2.0.10",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.8.2",
+    "path": "^0.12.7"
+  },
+  "jshintConfig": {
+    "esversion": 8
+  }
+}
